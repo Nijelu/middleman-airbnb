@@ -1,0 +1,31 @@
+.banner {
+  background-size: cover;
+  background-image:
+      linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%),
+      url('../../images/background.jpg');
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  color: white;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.banner-content p {
+  margin-bottom: 50px;
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+.banner .btn {
+  background-color: #428BCA;
+}
