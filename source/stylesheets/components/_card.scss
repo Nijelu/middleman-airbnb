@@ -19,10 +19,10 @@
   background-color: black;
   opacity: 0;
   z-index: 2;
-}
 
-.card-img-link:hover {
+  &:hover {
   opacity: 0.1;
+  }
 }
 
 .card-category {
@@ -60,11 +60,11 @@
   }
 
   .on {
-    color: #ffb400
+    color: $rating-on;
   }
 
   .off {
-    color: #cacccd
+    color: $rating-off;
   }
 }
 

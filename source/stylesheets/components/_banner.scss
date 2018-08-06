@@ -7,25 +7,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .btn {
+  background-color: #428BCA;
+  }
 }
 
 .banner-content {
   color: white;
   font-size: 1.75em;
   text-align: center;
-}
 
-.banner-content h1 {
+  h1 {
   font-size: 50px;
   font-weight: 900;
-}
+  }
 
-.banner-content p {
+  p {
   margin-bottom: 50px;
   font-size: 25px;
   opacity: 0.8;
-}
-
-.banner .btn {
-  background-color: #428BCA;
+  }
 }
