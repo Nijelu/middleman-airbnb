@@ -1,0 +1,77 @@
+#show {
+  height: 100vh;
+
+  .banner {
+  height: 50vh;
+  background-position: center;
+  }
+}
+
+#show-content {
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  h1 {
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  p {
+    font-size: 14px;
+    color: $dark-grey;
+  }
+
+  .rating .on{
+    color: $rating-on;
+  }
+
+  .rating .off {
+    color: $rating-off;
+  }
+
+  .form {
+    background-color: $light-gray;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+
+  .profil {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .profil > p {
+    width: 100%;
+  }
+
+  .details {
+
+  }
+}
+
+.wrapper-content {
+    background-color: white;
+}
+
+.container {
+  padding: 20px 15px;
+}
+
+.fa-wifi {
+  font-size: 200px;
+  margin: 30px 0;
+}
+
+.on {
+  color: black;
+}
+
+.off {
+  color: white;
+}
